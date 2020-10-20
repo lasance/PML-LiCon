@@ -3,7 +3,6 @@
   "default":"en",
   "en":{
     "appName":"PML Light Controller",
-    "actSw":"Select Master Switch",
 	"patternSw":"Select Pattern Switch",
 	"delayPot":"Select Delay Pot"
   }
