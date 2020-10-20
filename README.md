@@ -32,7 +32,6 @@ Go to [applications] [User Applications] and click [+] and add the application P
 you will get a message on the top of your TX saying you need to "Set PML-LiCon Inputs", this is because you need to set up the inputs
 
 Click the jog wheel to run the application and set your 
-master switch (lights On/Off) to a 2 position latching switch
 Pattern Switch (change the pattern) ideally to a non-latching switch
 Delay Pot to a Knob or slider - set the input to be proportional and non-centered (i.e. 0-100%)
 
@@ -49,14 +48,15 @@ Select Option [Lua] [Light COntroller] Use either Single or Double size [YES]
 
 Using the App
 -------------
-To use the app the On/Off switch turns the lights on or off at which ever pattern was last selected, when you turn off the Tx it will return to the default pattern
+To use the app the pattern switch changes the lights pattern, when you turn off the Tx it will return to the default pattern
 The Pattern switch will change the Pattern which changes at a speed stermined by the Delay Pot.
 
 Patterns
 --------
-There are 8 Patterns
+There are 9 Patterns
 
   1  2  3  4  5  6 (step)  
+0 0  0  0  0  0  0  Off (Default)
 1 1  0  1  0  1  0  Flash
 2 1  1  1  0  0  0  Slow Flash
 3 1  0  0  1  0  0  Short Flash
@@ -65,3 +65,4 @@ There are 8 Patterns
 6 1  1  1  1  0  0  Long ON short OFF
 7 1  0  0  0  0  0  Blink
 8 1  1  1  1  1  1  Always On
+
